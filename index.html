@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>10 Most Annoying Things Neighbors Do</h1>
+    </header>
+    
+    <div class="carousel-container" role="region" aria-label="Image Carousel">
+        <div class="carousel" aria-live="polite">
+            <div class="carousel-item">
+                <img src="images/noisyneighbour.jpg" alt="Noisy Neighbour">
+                <p class="description">Being too loud</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/dogpoop.jpg" alt="Dog Poop">
+                <p class="description">Not picking up after their pets</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carparked.jpg" alt="Parked Car">
+                <p class="description">Parking in a space that isn't theirs</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/kidsplaying.jpg" alt="Kids Playing">
+                <p class="description">Leaving children unsupervised</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/dogbarking.jpg" alt="Dog Barking">
+                <p class="description">Letting their dog bark all day</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/debris.jpg" alt="Garbage">
+                <p class="description">Leaving their garbage out for too long</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/beingpetty.jpg" alt="Being Petty">
+                <p class="description">Being petty about shared responsibilities</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/snowpile.jpg" alt="Snow Pile">
+                <p class="description">Leaving snow piles for others</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/smoking.jpg" alt="Lady Smoking">
+                <p class="description">Smoking too close to other neighbours' house</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carbeeping.jpg" alt="Beeping Car">
+                <p class="description">Having a car alarm that goes off repeatedly while they’re nowhere to be found.</p>
+            </div>
+        </div>
+        
+        <button class="prev" onclick="moveCarousel(-1)" aria-label="Previous slide">❮</button>
+        <button class="next" onclick="moveCarousel(1)" aria-label="Next slide">❯</button>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
